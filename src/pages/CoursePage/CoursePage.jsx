@@ -2,7 +2,7 @@ import React from 'react';
 import { Star, Clock, User, ChevronRight } from 'lucide-react';
 import './CoursePage.css';
 import Navbar from "../../components/Navbar/Navbar";
-import Background from 'three/src/renderers/common/Background.js';
+// import Background from 'three/src/renderers/common/Background.js';
 
 const CoursePage = () => {
   return (
