@@ -7,10 +7,12 @@ import './App.css'
 // import Chatbot from './pages/ChatBot/Chatbot.jsx'
 // import Navbar from './components/Navbar/Navbar.jsx'
 // import BlogPage from './pages/BlogPage/BlogPage'
+import Loginpage from './pages/loginpage/loginpage'
 
 function App() {
 
   return (
+    <Loginpage />
     // <InternshipPage />
     // <Coursepage />
     // <Dashboard />
