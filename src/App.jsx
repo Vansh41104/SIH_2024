@@ -7,11 +7,16 @@ import './App.css'
 // import Chatbot from './pages/ChatBot/Chatbot.jsx'
 // import Navbar from './components/Navbar/Navbar.jsx'
 // import BlogPage from './pages/BlogPage/BlogPage'
+<<<<<<< HEAD
 import LabsPage from './pages/Labs/LabsPage'
+=======
+import Loginpage from './pages/loginpage/loginpage'
+>>>>>>> 2b72ded26dbfed3ee4630538491edbefad88ea8c
 
 function App() {
 
   return (
+    <Loginpage />
     // <InternshipPage />
     // <Coursepage />
     // <Dashboard />
