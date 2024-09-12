@@ -101,7 +101,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     /* margin-top: 30px; */
-    padding-top: 60px;
+    padding-top: 30px;
     padding-left: 60px;
     padding-right: 60px;
   }
