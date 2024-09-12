@@ -11,6 +11,7 @@ import './App.css'
 // import LabsPage from './pages/Labs/LabsPage'
 // import Loginpage from './pages/loginpage/loginpage'
 
+<<<<<<< HEAD
 
 // import Dashboard from './pages/Dashboard/Dashboard'
 // import CertificatePage from './pages/CertificatePage/CertificatePage'
@@ -24,6 +25,8 @@ import './App.css'
 // import Loginpage from './pages/loginpage/loginpage'
 
 
+=======
+>>>>>>> f0f9fd20c348322bb75de7078c81c5fa809f9c93
 function App() {
 
   return (
@@ -36,7 +39,11 @@ function App() {
     // <Navbar />
     // <BlogPage />
     // <ProfilePage />
+<<<<<<< HEAD
     // <LabsPage />
+=======
+    <LabsPage />
+>>>>>>> f0f9fd20c348322bb75de7078c81c5fa809f9c93
   )
 }
 
