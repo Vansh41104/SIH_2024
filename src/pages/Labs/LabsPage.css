@@ -65,7 +65,7 @@ main {
 }
 
 .image-container {
-  flex: 0 0 62%;
+  flex: 0 0 60%;
   height: 70vh;
   border-radius: 20px;
   overflow: hidden;

@@ -1,0 +1,350 @@
+<<<<<<< HEAD
+/* General styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a40;
+    padding: 20px;
+    color: white;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header ul li {
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #1a1a40;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #8f00ff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Courses Section */
+  .courses-section {
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .courses-filter {
+    margin-bottom: 30px;
+  }
+  
+  .filter-btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .filter-btn.active {
+    background-color: #8f00ff;
+    color: white;
+  }
+  
+  .course-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .course-card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .enroll-btn {
+    background-color: #8f00ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Features Section */
+  .features-section {
+    background-color: #1a1a40;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature-item {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  /* Connect and Learn Section */
+  .connect-section {
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .connect-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .connect-item {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .connect-btn {
+    margin-top: 20px;
+    background-color: #8f00ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #1a1a40;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    margin-bottom: 20px;
+  }
+  
+  .footer-links a, .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover, .footer-links a:hover {
+    text-decoration: underline;
+  }
+=======
+/* General styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a40;
+    padding: 20px;
+    color: white;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header ul li {
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #1a1a40;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #8f00ff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Courses Section */
+  .courses-section {
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .courses-filter {
+    margin-bottom: 30px;
+  }
+  
+  .filter-btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .filter-btn.active {
+    background-color: #8f00ff;
+    color: white;
+  }
+  
+  .course-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .course-card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .enroll-btn {
+    background-color: #8f00ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Features Section */
+  .features-section {
+    background-color: #1a1a40;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature-item {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  /* Connect and Learn Section */
+  .connect-section {
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .connect-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .connect-item {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .connect-btn {
+    margin-top: 20px;
+    background-color: #8f00ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #1a1a40;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    margin-bottom: 20px;
+  }
+  
+  .footer-links a, .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover, .footer-links a:hover {
+    text-decoration: underline;
+  }
+>>>>>>> 194b47d535a2cb2cc9ac05ac9879a2e4bb70b22e
+  
