@@ -1,5 +1,6 @@
 
 import './App.css'
+// import CertificatePage from './pages/CertificatePage/CertificatePage'
 import InternshipPage from './pages/InternshipPage/InternshipPage'
 // import Coursepage from './pages/CoursePage/CoursePage'
 // import Chatbot from './pages/ChatBot/Chatbot.jsx'
@@ -14,6 +15,7 @@ function App() {
     // <Chatbot/>
     // <Navbar/>
     // <BlogPage />
+    // <CertificatePage/>
   )
 }
 
