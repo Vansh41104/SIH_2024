@@ -1,6 +1,6 @@
 
 import './App.css'
-// import Dashboard from './pages/Dashboard/Dashboard'
+import Dashboard from './pages/Dashboard/Dashboard'
 // import CertificatePage from './pages/CertificatePage/CertificatePage'
 import InternshipPage from './pages/InternshipPage/InternshipPage'
 // import Coursepage from './pages/CoursePage/CoursePage'
@@ -11,13 +11,13 @@ import InternshipPage from './pages/InternshipPage/InternshipPage'
 function App() {
 
   return (
-    <InternshipPage />
+    // <InternshipPage />
     // <Coursepage/>
     // <Chatbot/>
     // <Navbar/>
     // <BlogPage />
     // <CertificatePage/>
-    // <Dashboard />
+    <Dashboard />
   )
 }
 

@@ -18,12 +18,12 @@ function Dashboard() {
 
         <div className="cards-section">
           <div className="card">
-            <img src="src\pages\Dashboard\openbook.png" alt="" />
+            <img src="src\assets\openbook.png" alt="" />
             <h3>Course Enrolled</h3>
             <p>1</p>
           </div>
           <div className="card">
-            <img src="src\pages\Dashboard\certificate.png" alt="" />
+            <img src="src\assets\certificate.png" alt="" />
             <h3>Course Completed</h3>
             <p>0</p>
           </div>
