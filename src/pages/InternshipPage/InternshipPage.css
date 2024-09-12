@@ -43,6 +43,7 @@ body {
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    color: #000022;
   }
   
   .tag:hover {
@@ -118,6 +119,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #000022;
   }
   
   .internship-card:hover {
