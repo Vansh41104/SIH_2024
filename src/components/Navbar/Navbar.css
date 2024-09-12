@@ -41,9 +41,15 @@
   }
   
   .navbar-dots {
-    padding-right: 650px;
     margin-left: 20px;
     font-size: 1.2rem;
     cursor: pointer;
+  }
+
+  .navbar-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
   }
   

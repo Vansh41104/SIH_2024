@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaSearch, FaBell, FaUserCircle } from "react-icons/fa";
 import { IoSend } from "react-icons/io5";
+import Navbar from "../../components/Navbar/Navbar";
 
 const ChatApp = () => {
   const [messages, setMessages] = useState([
@@ -41,16 +42,7 @@ const ChatApp = () => {
   return (
     <div style={{ height: "100vh", display: "flex", flexDirection: "column", backgroundColor: "#fff" }}>
       {/* Top Navbar */}
-      <nav style={styles.navbar}>
-        <div style={styles.navLeft}>
-          <span style={styles.navLogo}>✨ Hands-On Heroes</span>
-        </div>
-        <div style={styles.navRight}>
-          <FaSearch style={styles.icon} />
-          <FaBell style={styles.icon} />
-          <FaUserCircle style={styles.icon} />
-        </div>
-      </nav>
+      <Navbar />
 
       {/* Chat Section */}
       <div style={styles.chatContainer}>

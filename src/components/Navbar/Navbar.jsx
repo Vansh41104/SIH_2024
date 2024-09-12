@@ -10,11 +10,13 @@ const Navbar = () => {
           <span className="sparkle-icon">✦</span> Hands-On Heroes
         </span>
       </div>
-      <div className="navbar-right">
-        <FaBox className="navbar-icon" />
-        <FaBook className="navbar-icon" />
-        <FaStar className="navbar-icon" />
-        <div className="navbar-dots">...</div>
+        <div className="navbar-center">
+          <FaBox className="navbar-icon" />
+          <FaBook className="navbar-icon" />
+          <FaStar className="navbar-icon" />
+          <div className="navbar-dots">...</div>
+        </div>
+        <div className="navbar-right">
         <FaSearch className="navbar-icon" />
         <FaBell className="navbar-icon" />
         <FaUser className="navbar-icon" />
