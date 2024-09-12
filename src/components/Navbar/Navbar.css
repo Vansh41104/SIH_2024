@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0523; /* Dark background */
+    color: white;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sparkle-icon {
+    margin-right: 8px;
+    font-size: 1.4rem;
+    color: #8a2be2; /* Optional purple color for sparkle */
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .navbar-icon {
+    font-size: 1.2rem;
+    margin-left: 20px;
+    cursor: pointer;
+    gap: 20px;
+  }
+  
+  .navbar-dots {
+    padding-right: 650px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  

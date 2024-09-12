@@ -1,14 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import InternshipPage from './pages/InternshipPage/InternshipPage'
+// import Coursepage from './pages/CoursePage/CoursePage'
+// import Chatbot from './pages/ChatBot/Chatbot.jsx'
+// import Navbar from './components/Navbar/Navbar.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <InternshipPage />
+    // <Coursepage/>
+    // <Chatbot/>
+    // <Navbar/>
   )
 }
 
