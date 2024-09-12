@@ -33,12 +33,13 @@ body {
   }
   
   .main-content {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
   }
   
   .welcome-section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
     display: flex;
     align-items: center;justify-content: space-between;
     
@@ -60,9 +61,9 @@ body {
   
   .cards-section {
     display: flex;
-    gap: 20px;
+    gap: 100px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    padding-top: 60px;
   }
   
   .card {
@@ -79,7 +80,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:20px;
+    gap:100px;
+    margin-top: 60px;
   }
   
   .assignments-section, .tests-section {
