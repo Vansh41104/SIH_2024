@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+
+.course-detail-page {
+  font-family: Arial, sans-serif;
+  background-color: #f0ece3;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #1a1a2e;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.progress-bar {
+  flex-grow: 1;
+  height: 10px;
+  background-color: #ffffff33;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.3s ease-in-out;
+}
+
+main {
+  flex-grow: 1;
+  padding: 40px;
+  position: relative;
+}
+
+.menu-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.image-container {
+  flex: 0 0 62%;
+  height: 70vh;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.course-info {
+  flex: 0 0 30%;
+  background-color: #1a1a2e;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+.course-info h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.course-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-info li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.course-info li::before {
+  content: "•";
+  color: white;
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.next-button {
+  background-color: #1a1a2e;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.next-button span {
+  margin-left: 10px;
+}
