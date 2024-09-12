@@ -24,8 +24,7 @@ function App() {
     // <Navbar />
     // <BlogPage />
     // <ProfilePage />
-    // <LabsPage />
-
+    <LabsPage />
   )
 }
 
