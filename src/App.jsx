@@ -7,6 +7,7 @@ import './App.css'
 // import Chatbot from './pages/ChatBot/Chatbot.jsx'
 // import Navbar from './components/Navbar/Navbar.jsx'
 // import BlogPage from './pages/BlogPage/BlogPage'
+import LabsPage from './pages/Labs/LabsPage'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     // <Chatbot />
     // <Navbar />
     // <BlogPage />
+    <LabsPage />
   )
 }
 
