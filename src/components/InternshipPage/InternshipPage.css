@@ -1,0 +1,142 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #EBE6E3;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+  }
+  
+
+  
+  /* Page header */
+  .page-header h1 {
+    font-size: 32px;
+    color: #EBE6E3;
+    background-color: #000022;
+    padding: 20px;
+    text-align: left;
+    margin: 0px;
+  }
+  
+  /* Filter section */
+  .filter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 30px; */
+    padding: 20px;
+  }
+  
+  .filter-tags {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .tag {
+    background-color: #e0e0e0;
+    padding: 10px 15px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tag:hover {
+    background-color: #d1cccc;
+  }
+  
+  .filter-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .filter-button {
+    display: flex;
+    align-items: center;
+    background-color: #EBE6E3;
+    border: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .filter-button .filter-icon {
+    margin-right: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 24px;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 5px;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Internship cards */
+  .internship-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /* margin-top: 30px; */
+    padding: 20px;
+  }
+  
+  .internship-card {
+    background-color: #EBE6E3;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px #000022;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .internship-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #000022;
+  }
+  
+  .internship-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .internship-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .apply-button {
+    display: inline-block;
+    background-color: #000022;
+    color: #EBE6E3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .apply-button:hover {
+    background-color: #000031;
+  }
