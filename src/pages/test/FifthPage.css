@@ -1,0 +1,108 @@
+
+  body {
+    font-family: poppins, sans-serif;
+    width: 100%;
+  }
+  .FifthApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  /* Banner Section */
+  .banner {
+    background-image: url('src/assets/footerBack.png'); /* Replace with your image path */
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 97%;
+  }
+  
+  .banner h1 {
+    max-width: 800px;
+    font-size: 80px;
+  }
+  
+  /* Footer Section */
+  .fifth-footer {
+    background-color: #161b2e;
+    padding: 20px ;
+    width: 97vw;
+    height: 30vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .fifth-footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 30px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+  }
+  
+  .logo-star {
+    color: #fff200;
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  .fifth-footer-columns {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70%;
+
+
+  }
+  
+  .fifth-footer-column {
+    margin: 0 20px;
+  }
+  
+  .fifth-footer-column h3 {
+
+    padding-bottom: 30px;
+  }
+  
+  .fifth-footer-column ul {
+    list-style-type: none;
+  }
+  
+  .fifth-footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons li {
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .social-icons li:hover {
+    color: #ffa500; /* Change to your desired hover color */
+  }
+  

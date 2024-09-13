@@ -3,7 +3,7 @@ import './Test.css';
 import Navbar from "../../components/Navbar/Navbar";
 import SecondPages from './SecondPages'
 import ThirdPage from "./ThirdPage";
-
+import FifthPage from "./FifthPage";
 function Test() {
   return (
     <div className="landing-page">
@@ -38,6 +38,7 @@ function Test() {
         </div>
         <SecondPages/>
         <ThirdPage/>
+        <FifthPage/>
 
     </div>
     

@@ -15,6 +15,8 @@ import LabsPage from './pages/Labs/LabsPage'
 import Loginpage from './pages/loginpage/loginpage'
 import Test from './pages/test/Test.jsx'
 import TestGuidelinesPage from './pages/TestGuidelinesPage/TestGuidelinesPage.jsx'
+import QuizComponent from './pages/QuizPage/QuizPage.jsx'
+
 function App() {
   return (
     <Router>
@@ -35,6 +37,7 @@ function App() {
           <Route path="/labs" element={<LabsPage />} />
           <Route path="/login" element={<Loginpage />} />  
           <Route path="/test" element={<Test />} /> 
+          <Route path="/quiz" element={<QuizComponent />} /> 
           <Route path="/testguidelinespage" element={<TestGuidelinesPage />} /> 
         </Routes>
       </>

@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { FaSearch, FaBell, FaUser, FaBox, FaBook, FaStar } from "react-icons/fa";
+import { FaSearch, FaBell, FaUser, FaBox, FaBook, FaStar ,FaMicroblog } from "react-icons/fa";
 import "./Navbar.css"; // optional CSS file for styling
 
 const Navbar = () => {
@@ -19,6 +19,9 @@ const Navbar = () => {
   };
   const handleProfilePageClick = () => {
     navigate("/profile");
+  };
+  const handleStarClick = () => {
+    navigate("/blog");
   };
 
   return (
@@ -39,7 +42,9 @@ const Navbar = () => {
           onClick={handleCourseClick} 
           style={{ cursor: 'pointer' }} 
         />
-        <FaStar className="navbar-icon" />
+        <FaMicroblog  className="navbar-icon"
+        onClick={handleStarClick} 
+        style={{ cursor: 'pointer' }} />
         <div className="navbar-dots">...</div>
       </div>
       <div className="navbar-right">
