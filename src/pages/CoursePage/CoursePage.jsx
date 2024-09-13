@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Star, Clock, User, ChevronRight } from 'lucide-react';
 import './CoursePage.css';
 import Navbar from "../../components/Navbar/Navbar";
+import { useNavigate } from 'react-router-dom';
 
 // Tab Components
 const AboutCourse = () => (
@@ -24,23 +25,31 @@ const Labs = () => (
   <div>
     <h3>Labs Related to project:</h3>
     <p>Information about the labs included in the course.</p>
-    <button className="crpg-interactive-learning" >
-                <span>Labs page</span>
-                <ChevronRight size={20} />
-              </button>
+    <button className="crpg-interactive-learning">
+      <span>Labs page</span>
+      <ChevronRight size={20} />
+    </button>
   </div>
 );
 
-const TestPage = () => (
-  <div>
-    <h3>Test Related to projects:</h3>
-    <p>Details about the test pages and assessments.</p>
-    <button className="crpg-interactive-learning">
-                <span>Test Page</span>
-                <ChevronRight size={20} />
-              </button>
-  </div>
-);
+const TestPage = () => {
+  const navigate = useNavigate();
+  
+  const handleClick = () => {
+    navigate('./pages/TestGuidelinesPage/TestGuidelinesPage.jsx');
+  };
+
+  return (
+    <div>
+      <h3>Test Related to projects:</h3>
+      <p>Details about the test pages and assessments.</p>
+      <button className="crpg-interactive-learning" onClick={handleClick}>
+        <span>Test Page</span>
+        <ChevronRight size={20} />
+      </button>
+    </div>
+  );
+};
 
 const Material = () => (
   <div>

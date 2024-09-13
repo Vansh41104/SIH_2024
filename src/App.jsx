@@ -13,7 +13,6 @@ import Chatbot from './pages/ChatBot/Chatbot.jsx'
 import BlogPage from './pages/BlogPage/BlogPage'
 import LabsPage from './pages/Labs/LabsPage'
 import Loginpage from './pages/loginpage/loginpage'
-import Test from './pages/test/Test';
 
 function App() {
   return (
