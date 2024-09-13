@@ -1,0 +1,70 @@
+.courses-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 40px;
+    height: 67vh;
+  }
+  
+  .arrow {
+    font-size: 40px;
+    cursor: pointer;
+    color: #4a47f5;
+    padding: 10px;
+  }
+  
+  .course-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .course-image {
+    /* width: 100%; */
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  
+  .second-course-info .category {
+    background-color: #c4c4c4;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+  
+  .second-course-info .rating {
+    color: #f1c40f;
+    margin-left: 10px;
+  }
+  
+  .second-course-info h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .second-course-info p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .enroll-btn {
+    background-color: #4a47f5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  

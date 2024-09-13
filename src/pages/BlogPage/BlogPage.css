@@ -9,18 +9,10 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
+    color: #000022;
     
   }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 20px;
-    background-color: #0a0a23;
-    color: white;
-  }
-  
+ 
   .blog-container {
     display: flex;
     justify-content:center;

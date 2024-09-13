@@ -6,7 +6,7 @@ function Dashboard() {
   return (
     <div className="dashboard">
       
-      <main className="main-content">
+      <main className="main-content-dash">
         <div className="welcome-section">
             <div className="text">
                 <h1>Welcome Back, <br></br>User Name</h1>

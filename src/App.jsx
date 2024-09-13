@@ -2,13 +2,14 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Coursepage from './pages/CoursePage/CoursePage';
+import TestGuidelinesPage from './pages/TestGuidelinesPage/TestGuidelinesPage';
 
 // Other imports can remain commented out for now
 // import Landingpage from './pages/LandingPage/landingpage.jsx'
 // import Dashboard from './pages/Dashboard/Dashboard';
 // import CertificatePage from './pages/CertificatePage/CertificatePage';
 // import InternshipPage from './pages/InternshipPage/InternshipPage';
- import ProfilePage from './pages/ProfilePage/ProfilePage';
+ //import ProfilePage from './pages/ProfilePage/ProfilePage';
 // import Chatbot from './pages/ChatBot/Chatbot.jsx';
 // import BlogPage from './pages/BlogPage/BlogPage';
 // import LabsPage from './pages/Labs/LabsPage';
@@ -27,6 +28,8 @@ function App() {
         {/* <Route path="/certificate" element={<CertificatePage />} /> */}
         {/* <Route path="/internship" element={<InternshipPage />} /> */}
          <Route path="/profile" element={<ProfilePage />} />
+         <Route path="/course" element={<Coursepage />} />
+
         {/* <Route path="/chat" element={<Chatbot />} /> */}
         {/* <Route path="/blog" element={<BlogPage />} /> */}
         {/* <Route path="/labs" element={<LabsPage />} /> */}

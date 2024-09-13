@@ -1,0 +1,74 @@
+/* ChatApp.css */
+.chat-container {
+    flex: 1;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  .user-bubble {
+    align-self: flex-end;
+    background-color: #ebe6e3;
+    color: #000022;
+    border-radius: 20px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    max-width: 60%;
+    word-wrap: break-word;
+  }
+  
+  .bot-bubble {
+    align-self: flex-start;
+    background-color: #000066;
+    color: #ebe6e3;
+    border-radius: 20px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    max-width: 60%;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bot-icon {
+    margin-right: 0.5rem;
+    font-size: 1.5rem; /* Adjust bot icon size */
+  }
+  
+  .chat-input-container {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #ebe6e3;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 80px;
+    margin-bottom: 90px;
+  }
+  
+  .msg-input {
+    flex-grow: 1;
+    padding: 0.75rem 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background-color: transparent;
+  }
+  
+  button.send-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    width: 5%;
+  }
+  
+  .send-icon {
+    font-size: 1.5rem;
+    color: #000;
+  }
+  
