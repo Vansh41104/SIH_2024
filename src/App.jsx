@@ -26,7 +26,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />/*Done*/
           <Route path="/certificate" element={<CertificatePage />} />/*Done*/
           <Route path="/internship" element={<InternshipPage />} />/*Done*/
-          <Route path="/course" element={<Coursepage />} />
+          <Route path="/course" element={<Coursepage />} />/*Done*/
           <Route path="/profile" element={<ProfilePage />} />/*Done*/
           <Route path="/chat" element={<Chatbot />} />
           <Route path="/blog" element={<BlogPage />} />

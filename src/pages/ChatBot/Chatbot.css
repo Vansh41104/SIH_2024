@@ -1,6 +1,6 @@
 /* ChatApp.css */
 .chat-container {
-    flex-grow: 1;
+    flex: 1;
     padding: 3rem;
     display: flex;
     flex-direction: column;
@@ -45,8 +45,8 @@
     background-color: #ebe6e3;
     border-radius: 20px;
     width: 90%;
-    margin-left: 40px;
-    margin-bottom: 30px;
+    margin-left: 80px;
+    margin-bottom: 90px;
   }
   
   .msg-input {
@@ -58,12 +58,13 @@
     background-color: transparent;
   }
   
-  .send-button {
+  button.send-button {
     background-color: transparent;
     border: none;
     cursor: pointer;
     padding: 0.5rem;
     margin-left: 0.5rem;
+    width: 5%;
   }
   
   .send-icon {
