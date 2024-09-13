@@ -13,7 +13,6 @@ import Chatbot from './pages/ChatBot/Chatbot.jsx'
 import BlogPage from './pages/BlogPage/BlogPage'
 import LabsPage from './pages/Labs/LabsPage'
 import Loginpage from './pages/loginpage/loginpage'
-import Test from './pages/test/Test.jsx'
 import TestGuidelinesPage from './pages/TestGuidelinesPage/TestGuidelinesPage.jsx'
 import QuizComponent from './pages/QuizPage/QuizPage.jsx'
 //import landingpage from './pages/LandingPage/landingpage.jsx';
@@ -24,8 +23,7 @@ function App() {
       <>
         <Navbar />
         <Routes>
-        {/* <Route path="/" element={} /> */}
-          <Route path="/land" element={<Landingpage />} />
+          <Route path="/" element={<Landingpage />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/certificate" element={<CertificatePage />} />
           <Route path="/internship" element={<InternshipPage />} />
@@ -35,7 +33,6 @@ function App() {
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/labs" element={<LabsPage />} />
           <Route path="/login" element={<Loginpage />} />  
-          <Route path="/test" element={<Test />} /> 
           <Route path="/quiz" element={<QuizComponent />} /> 
           <Route path="/testguidelinespage" element={<TestGuidelinesPage />} />
           <Route path="/landingpage" element={<Landingpage />} />  

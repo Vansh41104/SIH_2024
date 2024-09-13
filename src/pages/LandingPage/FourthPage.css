@@ -1,0 +1,91 @@
+
+
+.landing-page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 100vh; */
+  padding: 0 50px;
+  background-color: #ebe6e3;
+  color: #002;
+  margin-top: 7%;
+}
+
+/* Left Section (Text + Buttons) */
+.left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 100%;
+  width: 40% ;
+}
+
+.left-section h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 40px 0px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin: 30px 0px;
+  width: 60%;
+}
+
+.icon {
+  margin-right: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.icon img{
+  height: 80px;
+  width: 80px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h3 {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.start-btn,
+.explore-btn {
+  background-color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 120px;
+  color: #002;
+}
+
+.start-btn:hover,
+.explore-btn:hover {
+  background-color: #d3d3d3;
+}
+
+/* Right Section (Illustration) */
+.right-section {
+  flex: 1;
+  background-image: url('../../assets/FourthPage.png'); /* Replace with actual image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 80vw;
+  background-size: cover;
+}
+
+.illustration {
+  width: 80%;
+  max-width: 500px;
+}

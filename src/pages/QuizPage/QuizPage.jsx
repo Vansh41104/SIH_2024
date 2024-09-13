@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Timer from './Timer'; // Import the Timer component
 import './QuizPage.css';  // Link to the CSS file
 import { FaFlag } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 const QuizComponent = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -71,6 +72,12 @@ const QuizComponent = () => {
       ...selectedAnswers,
       [questionId]: optionId, // Store the selected option for each question
     });
+  };
+
+  const navigate = useNavigate();
+
+  const handlecertificate = () => {
+    navigate('/certificate');
   };
 
   const handleSubmitTest = () => {
@@ -217,7 +224,7 @@ const QuizComponent = () => {
                   );
                 })}
               </ul>
-              <button className="go-button">Go to Certificate</button>
+              <button className="go-button" onClick={handlecertificate}>Go to Certificate</button>
             </div>
           )}
         </div>
