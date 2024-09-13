@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Star, Clock, User, ChevronRight } from 'lucide-react';
 import './CoursePage.css';
-import Navbar from "../../components/Navbar/Navbar";
+// import Navbar from "../../components/Navbar/Navbar";
 import { useNavigate } from 'react-router-dom';
 
 // Tab Components
@@ -156,7 +156,7 @@ const CoursePage = () => {
                 <li>Badges and many more !</li>
               </ul>
               <button className="crpg-interactive-learning" onClick={handleClick}>
-                <span>Interactive Learning</span>
+                <span>Start Course</span>
                 <ChevronRight size={20} />
               </button>
             </div>
