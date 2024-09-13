@@ -1,8 +1,14 @@
 import React from 'react';
 import './CertificatePage.css'; 
 import Navbar from '../../components/Navbar/Navbar';
+import { useNavigate } from 'react-router-dom';
 
 const CertificatePage = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/abc');
+  };
   return (
     <div className="certificate-page">
 
@@ -38,6 +44,7 @@ const CertificatePage = () => {
           <p className="update-note">
             Update your certificate with your correct name or preferred language
           </p>
+          <button className="abc-button" onClick={handleClick}>Convert to ABC Credits</button>
         </div>
       </div>
     </div>

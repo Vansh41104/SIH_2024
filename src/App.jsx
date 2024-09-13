@@ -16,6 +16,7 @@ import LabsPage from './pages/Labs/LabsPage'
 import Loginpage from './pages/loginpage/loginpage'
 import TestGuidelinesPage from './pages/TestGuidelinesPage/TestGuidelinesPage.jsx'
 import QuizComponent from './pages/QuizPage/QuizPage.jsx'
+import ABCPage from './pages/ABCPage/ABC'
 import { Outlet } from 'react-router-dom';
 //import landingpage from './pages/LandingPage/landingpage.jsx';
 const LayoutWithNavbar = () => (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/chat" element={<Chatbot />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/testguidelinespage" element={<TestGuidelinesPage />} />
+        <Route path="/abc" element={<ABCPage />} />
       </Route>
 
       {/* Routes without Navbar */}

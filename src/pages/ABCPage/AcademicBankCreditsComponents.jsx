@@ -1,7 +1,14 @@
 import React from 'react';
 import './ABC.css'
+import { useNavigate } from 'react-router-dom';
 
 const AcademicBankCredits = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/dashboard');
+  };
+
   return (
     <div className="container">
       <div className="abc-card">
@@ -40,7 +47,7 @@ const AcademicBankCredits = () => {
           <p>Please provide your AADHAAR ID to Academic Institute to reflect your Credit points here</p>
         </div>
 
-        <button className="abc-pay-btn">Pay Now</button>
+        <button className="abc-pay-btn" onClick={handleClick}>Pay Now</button>
       </div>
     </div>
   );
