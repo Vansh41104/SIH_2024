@@ -116,7 +116,9 @@ const styles = {
     flexDirection: "column",
     justifyContent: "flex-end",
     overflowY: "auto",
+    position: "relative", // Added to position the input container
   },
+
   userBubble: {
     alignSelf: "flex-end",
     backgroundColor: "#EBE6E3",
@@ -146,25 +148,37 @@ const styles = {
   chatInputContainer: {
     display: "flex",
     alignItems: "center",
-    padding: "1rem",
+    padding: "0.5rem 1rem",
+    backgroundColor: "#EBE6E3",
+    borderRadius: "20px",
+    width:"90%",
+    marginLeft:"40px",
+    marginBottom:"30px",
+    
+   
+    // Adjust based on your navbar max-width
+    margin: "0 auto", // Center the input if navbar is centered
   },
+  
   msginput: {
     flexGrow: 1,
     padding: "0.75rem 1rem",
-    borderRadius: "20px",
     border: "none",
     outline: "none",
     fontSize: "1rem",
-    backgroundColor: "#EBE6E3",
-    border: "1px solid #EBE6E3",
-    borderRadius: "20px",
+    backgroundColor: "transparent",
+    
   },
+  
   sendButton: {
     backgroundColor: "transparent",
     border: "none",
-    marginLeft: "1rem",
     cursor: "pointer",
+    padding: "0.5rem",
+    marginLeft: "0.5rem",
   },
+
+
   sendIcon: {
     fontSize: "1.5rem",
     color: "#000",
