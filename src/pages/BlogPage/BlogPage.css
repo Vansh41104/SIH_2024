@@ -1,16 +1,12 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #EBE6E3;
-  }
-  .App {
+
+  .BlogApp {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
     color: #000022;
-    
+    width: 97%;
   }
  
   .blog-container {
