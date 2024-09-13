@@ -5,8 +5,6 @@ import Navbar from '../../components/Navbar/Navbar';
 const CertificatePage = () => {
   return (
     <div className="certificate-page">
-      {/* Header */}
-      <Navbar />
 
       {/* Certificate Section */}
       <div className="certificate-container">
