@@ -1,10 +1,10 @@
 import React from 'react';
-import './landingpage.css';
+import './Landingpage.css';
 import Navbar from '../../components/Navbar/Navbar';
 const Landingpage = () => {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
       <section className="hero">
         <div className="hero-content">
           <h1>Single Platform for all your Learnings</h1>

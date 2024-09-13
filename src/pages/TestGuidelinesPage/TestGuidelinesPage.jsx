@@ -1,25 +1,25 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './TestGuidelinesPage.css';
 import Navbar from '../../components/Navbar/Navbar';
+
 const TestGuidelines = () => {
+  const navigate = useNavigate();
+
+  const handleProceedClick = () => {
+    navigate('/quiz');
+  };
+
   return (
     <div className="test-page-container">
-      <header className="header">
-        <div className="logo">Hands-On Heroes</div>
-        <div className="header-icons">
-          <i className="icon layout"></i>
-          <i className="icon book"></i>
-          <i className="icon star"></i>
-          <i className="icon more"></i>
-        </div>
-      </header>
+      <Navbar />
       
       <div className="test-content">
         {/* Left Section - Course Info */}
         <div className="course-info">
-          <img 
-            src="chemistry.png" 
-            alt="Industrial Chemistry 101" 
+          <img
+            src="chemistry.png"
+            alt="Industrial Chemistry 101"
             className="course-image"
           />
           <div className="status-info">
@@ -52,7 +52,12 @@ const TestGuidelines = () => {
           </label>
           
           <p><strong>Time Limit: 1 Hrs</strong></p>
-          <button className="proceed-button">Proceed to Test &rarr;</button>
+          <button 
+            className="proceed-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            onClick={handleProceedClick}
+          >
+            Proceed to Test &rarr;
+          </button>
         </div>
       </div>
     </div>
