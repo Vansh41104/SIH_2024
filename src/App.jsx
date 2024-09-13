@@ -16,34 +16,39 @@ import LabsPage from './pages/Labs/LabsPage'
 import Loginpage from './pages/loginpage/loginpage'
 import TestGuidelinesPage from './pages/TestGuidelinesPage/TestGuidelinesPage.jsx'
 import QuizComponent from './pages/QuizPage/QuizPage.jsx'
+import { Outlet } from 'react-router-dom';
 //import landingpage from './pages/LandingPage/landingpage.jsx';
-
+const LayoutWithNavbar = () => (
+  <>
+    <Navbar />
+    <Outlet />
+  </>
+);
 function App() {
   return (
-    <Router>
-      <>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Landingpage />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/certificate" element={<CertificatePage />} />
-          <Route path="/internship" element={<InternshipPage />} />
-          <Route path="/course" element={<Coursepage />} />
-          <Route path="/profile" element={<ProfilePage />} />
-          <Route path="/profileedit" element={<ProfileEdit />} />
-          <Route path="/chat" element={<Chatbot />} />
-          <Route path="/blog" element={<BlogPage />} />
-          <Route path="/labs" element={<LabsPage />} />
-          <Route path="/login" element={<Loginpage />} />  
-          <Route path="/quiz" element={<QuizComponent />} /> 
-          <Route path="/testguidelinespage" element={<TestGuidelinesPage />} />
-          <Route path="/landingpage" element={<Landingpage />} />  
-        </Routes>
-      </>
-    </Router>
-    // <Test/>
-    // <Loginpage/>
-  )
+  <Router>
+    <Routes>
+      {/* Routes with Navbar */}
+      <Route element={<LayoutWithNavbar />}>
+        <Route path="/" element={<Landingpage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/certificate" element={<CertificatePage />} />
+        <Route path="/internship" element={<InternshipPage />} />
+        <Route path="/course" element={<Coursepage />} />
+        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/profileedit" element={<ProfileEdit />} />
+        <Route path="/chat" element={<Chatbot />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/testguidelinespage" element={<TestGuidelinesPage />} />
+      </Route>
+
+      {/* Routes without Navbar */}
+      <Route path="/labs" element={<LabsPage />} />
+      <Route path="/login" element={<Loginpage />} />
+      <Route path="/quiz" element={<QuizComponent />} />
+    </Routes>
+  </Router>
+);
 }
 
 export default App
