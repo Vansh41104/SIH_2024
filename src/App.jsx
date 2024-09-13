@@ -20,7 +20,8 @@ function App() {
       <>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Landingpage />} />
+        {/* <Route path="/" element={} /> */}
+          <Route path="/land" element={<Landingpage />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/certificate" element={<CertificatePage />} />
           <Route path="/internship" element={<InternshipPage />} />

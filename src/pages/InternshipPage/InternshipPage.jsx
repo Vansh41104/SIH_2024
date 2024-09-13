@@ -15,8 +15,7 @@ const internships = [
 const InternshipPage = () => {
   return (
     <div className="internship-page">
-      <Navbar />
-
+     
       <div className="filter-section">
         <div className="filter-tags">
           <span className="tag">Chemistry</span>

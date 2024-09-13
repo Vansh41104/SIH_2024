@@ -7,7 +7,7 @@ import Navbar from "../../components/Navbar/Navbar";
 const CoursePage = () => {
   return (
     <div className="crpg-course-page">
-        <Navbar />
+       
 
       <nav>
         <div className="crpg-course-container">

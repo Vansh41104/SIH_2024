@@ -5,8 +5,7 @@ import Navbar from '../../components/Navbar/Navbar';
 function Dashboard() {
   return (
     <div className="dashboard">
-      <Navbar />
-
+      
       <main className="main-content">
         <div className="welcome-section">
             <div className="text">
