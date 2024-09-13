@@ -17,13 +17,14 @@ header {
   align-items: center;
 }
 
-.back-button {
+button.back-button {
   background: none;
   border: none;
   color: white;
   font-size: 24px;
   cursor: pointer;
   margin-right: 20px;
+  width: 5%;
 }
 
 .progress-bar {
@@ -117,7 +118,7 @@ footer {
   justify-content: flex-end;
 }
 
-.next-button {
+button.next-button {
   background-color: #1a1a2e;
   color: white;
   border: none;
@@ -127,8 +128,11 @@ footer {
   cursor: pointer;
   display: flex;
   align-items: center;
+  width: 7%;
+  position: absolute;
+  Refinement sidewalk is the gap. Hey Cortana Open. Cortana turn off. 
 }
 
 .next-button span {
-  margin-left: 10px;
+  margin-left: 15px;
 }
