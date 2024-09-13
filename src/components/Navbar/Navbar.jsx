@@ -17,6 +17,9 @@ const Navbar = () => {
   const handleCourseClick = () => {
     navigate("/course");
   };
+  const handleProfilePageClick = () => {
+    navigate("/profile");
+  };
 
   return (
     <nav className="navbar">
@@ -46,7 +49,11 @@ const Navbar = () => {
           style={{ cursor: 'pointer' }} 
         />
         <FaBell className="navbar-icon" />
-        <FaUser className="navbar-icon" />
+        <FaUser 
+        className="navbar-icon"
+        onClick={handleProfilePageClick} 
+        style={{ cursor: 'pointer' }} 
+        />
       </div>
     </nav>
   );
