@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <Link to="/Landingpage" className="navbar-logo">
+        <Link to="/" className="navbar-logo">
           <span className="sparkle-icon">✦</span> Hands-On Heroes
         </Link>
       </div>
