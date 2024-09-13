@@ -2,6 +2,7 @@ import React from "react";
 import './Test.css';
 import Navbar from "../../components/Navbar/Navbar";
 import SecondPages from './SecondPages'
+import ThirdPage from "./ThirdPage";
 
 function Test() {
   return (
@@ -36,6 +37,7 @@ function Test() {
             </div>
         </div>
         <SecondPages/>
+        <ThirdPage/>
 
     </div>
     
