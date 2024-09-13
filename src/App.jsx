@@ -13,30 +13,27 @@ import Chatbot from './pages/ChatBot/Chatbot.jsx'
 import BlogPage from './pages/BlogPage/BlogPage'
 import LabsPage from './pages/Labs/LabsPage'
 import Loginpage from './pages/loginpage/loginpage'
-import Test from './pages/test/Test';
 
 function App() {
   return (
-    // <Router>
-    //   <>
-    //     <Navbar />
-    //     <Routes>
-    //     {/* <Route path="/" element={} /> */}
-    //       <Route path="/land" element={<Landingpage />} />
-    //       <Route path="/dashboard" element={<Dashboard />} />
-    //       <Route path="/certificate" element={<CertificatePage />} />
-    //       <Route path="/internship" element={<InternshipPage />} />
-    //       <Route path="/course" element={<Coursepage />} />
-    //       <Route path="/profile" element={<ProfilePage />} />
-    //       <Route path="/chat" element={<Chatbot />} />
-    //       <Route path="/blog" element={<BlogPage />} />
-    //       <Route path="/labs" element={<LabsPage />} />
-    //       <Route path="/login" element={<Loginpage />} /> 
-    //     </Routes>
-    //   </>
-    // </Router>
-    <Test/>
-    // <Loginpage/>
+    <Router>
+      <>
+        <Navbar />
+        <Routes>
+        {/* <Route path="/" element={} /> */}
+          {/* <Route path="/land" element={<Landingpage />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/certificate" element={<CertificatePage />} />
+          <Route path="/internship" element={<InternshipPage />} /> */}
+          <Route path="/course" element={<Coursepage />} />
+          {/* <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/chat" element={<Chatbot />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/labs" element={<LabsPage />} />
+          <Route path="/login" element={<Loginpage />} />  */}
+        </Routes>
+      </>
+    </Router>
   )
 }
 
