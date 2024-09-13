@@ -108,7 +108,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 100px;
     /* margin-top: 30px; */
-    padding-top: 0px;
+    padding-top: 30px;
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -160,5 +160,5 @@ body {
   }
   
   .apply-button:hover {
-    background-color: #000031;
+    background-color: #06066b;
   }
