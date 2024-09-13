@@ -25,15 +25,13 @@ function App() {
         <Routes>
         {/* <Route path="/" element={} /> */}
           <Route path="/land" element={<Landingpage />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/certificate" element={<CertificatePage />} />
-          <Route path="/internship" element={<InternshipPage />} />
-          <Route path="/course" element={<Coursepage />} />
+          <Route path="/dashboard" element={<Dashboard />} />/*Routing Done */
+          <Route path="/certificate" element={<CertificatePage />} />/*Routing Done */
+          <Route path="/internship" element={<InternshipPage />} />/*Routing Done */
+          <Route path="/course" element={<Coursepage />} />/*Routing Done */
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/chat" element={<Chatbot />} />
-          <Route path="/blog" element={<BlogPage />} />
-          <Route path="/chat" element={<Chatbot />} />
-          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog" element={<BlogPage />} />/*Routing Done */
           <Route path="/labs" element={<LabsPage />} />
           <Route path="/login" element={<Loginpage />} />  
           <Route path="/test" element={<Test />} /> 
