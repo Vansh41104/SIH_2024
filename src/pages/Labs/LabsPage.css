@@ -12,7 +12,7 @@ body{
 
 header {
   background-color: #1a1a2e;
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
   align-items: center;
 }
@@ -47,7 +47,7 @@ main {
   position: relative;
 }
 
-.menu-button {
+button.menu-button {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -55,6 +55,9 @@ main {
   border: none;
   font-size: 24px;
   cursor: pointer;
+  display: flex;
+  /* position: absolute; */
+  color: #1a1a2e;
 }
 
 .content {
