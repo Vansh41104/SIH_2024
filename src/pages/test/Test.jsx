@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import SecondPages from './SecondPages'
 import ThirdPage from "./ThirdPage";
 import FifthPage from "./FifthPage";
+import FourthPage from "./FourthPage";
 function Test() {
   return (
     <div className="landing-page">
@@ -38,6 +39,7 @@ function Test() {
         </div>
         <SecondPages/>
         <ThirdPage/>
+        <FourthPage/>
         <FifthPage/>
 
     </div>
