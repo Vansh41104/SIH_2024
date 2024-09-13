@@ -1,4 +1,9 @@
 import './App.css'
+<<<<<<< HEAD
+import InternshipPage from './pages/InternshipPage/InternshipPage'
+import TestPages from "./pages/TestPages/TestPages"
+
+=======
 
 // import Dashboard from './pages/Dashboard/Dashboard'
 // import CertificatePage from './pages/CertificatePage/CertificatePage'
@@ -11,10 +16,15 @@ import BlogPage from './pages/BlogPage/BlogPage'
 // import LabsPage from './pages/Labs/LabsPage'
 // import Loginpage from './pages/loginpage/loginpage'
 // import LabsPage from './pages/Labs/LabsPage';
+>>>>>>> fd8f697d4f6b743db3ed191d39ebf86f6a985088
 
 function App() {
 
   return (
+<<<<<<< HEAD
+    // <InternshipPage />
+    <TestPages/>
+=======
    
     // <Loginpage />
     // <InternshipPage />
@@ -28,6 +38,7 @@ function App() {
     // <LabsPage />
 
  
+>>>>>>> fd8f697d4f6b743db3ed191d39ebf86f6a985088
   )
 }
 
