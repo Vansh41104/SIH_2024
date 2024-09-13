@@ -1,8 +1,14 @@
 import React from 'react';
 import './ProfilePage.css'; // Import the CSS file for styling
 import Navbar from '../../components/Navbar/Navbar'; // Import the Navbar component
+import { useNavigate } from 'react-router-dom';
 
 const ProfilePage = () => {
+  const navigate = useNavigate();
+  
+  const handleClick = () => {
+    navigate('/profileedit');
+  };
   return (
     <div className="profile-page">
         <div className="profile-header-section">
@@ -12,7 +18,7 @@ const ProfilePage = () => {
           <div className="profile-info">
             <h2>Ishi Bhavsar</h2>
             <p>ishibhavsar41@gmail.com</p>
-            <button>Edit Profile</button>
+            <button onClick={handleClick}>Edit Profile</button>
           </div>
         </div>
     <div className="profile">
