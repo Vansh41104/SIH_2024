@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'PoetsenOne';
+  src: url('src/Fonts/Poetsen_One/PoetsenOne-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
   body {
     font-family: poppins, sans-serif;
@@ -26,6 +32,7 @@
     text-align: center;
     padding: 20px;
     width: 97%;
+    font-family: 'PoetsenOne';
   }
   
   .banner h1 {
@@ -106,3 +113,8 @@
     color: #ffa500; /* Change to your desired hover color */
   }
   
+  .poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
