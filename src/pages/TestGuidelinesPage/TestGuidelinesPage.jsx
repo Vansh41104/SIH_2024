@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'; // Import useNavigate from react
 import './TestGuidelinesPage.css';
 import { FaCheckSquare } from 'react-icons/fa'; // Import the check square icon from React Icons
 
-const TestPage = () => {
+const TestGuidelinesPage = () => {
   const navigate = useNavigate(); // Initialize useNavigate hook
 
   const handleProceedClick = () => {
@@ -61,4 +61,4 @@ const TestPage = () => {
   );
 }
 
-export default TestPage;
+export default TestGuidelinesPage;
