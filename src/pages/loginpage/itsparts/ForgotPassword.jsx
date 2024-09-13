@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './loginpage.css'; // Ensure you have this to apply styles
+
 
 const ForgotPassword = ({ setActiveCard }) => {
   const [email, setEmail] = useState('');

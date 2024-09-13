@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Login from './Login';
-import ForgotPassword from './ForgotPassword';
-import Signup from './Signup';
-import RecoveryEmailSent from './RecoveryEmailSent';
+import Login from './itsparts/Login';
+import ForgotPassword from './itsparts/ForgotPassword';
+import Signup from './itsparts/signup';
+import RecoveryEmailSent from './itsparts/RecoveryEmailSent';
 import './loginpage.css';
 import Navbar from './Navbar/Navbar';
 
