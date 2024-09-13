@@ -24,13 +24,13 @@ const InternshipPage = () => {
           <span className="tag">Maths</span>
         </div>
 
-        <div className="filter-actions">
-          <button className="filter-button">
-            <span className="filter-icon">⚙</span> Filters
+        <div   className="filter-actions">
+          <button className="filter-button" style={{color: 'black' }} >
+            <span className="filter-icon" >⚙</span> Filters
           </button>
-          <div className="search-bar">
+          <div className="search-bar"  style={{height:'20px' }} >
             <input type="text" placeholder="Search" />
-            <button className="search-button">🔍</button>
+            <button  className="search-button">🔍</button>
           </div>
         </div>
       </div>
