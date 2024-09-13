@@ -1,7 +1,16 @@
 import React from "react";
 import "./FourthPage.css";
+import { useNavigate } from 'react-router-dom';
 
 function FourthPage() {
+  const navigate = useNavigate();
+
+  const handleblogclick = () => {
+    navigate('/blog');
+  };
+  const handleinternshipclick = () => {
+    navigate('/internship');
+  };
   return (
     <div className="landing-page-container">
       <div className="left-section">
@@ -15,7 +24,7 @@ function FourthPage() {
           </div>
           <div className="text">
             <h3>Interact with other students and grow your network</h3>
-            <button className="start-btn">Start ➔</button>
+            <button className="start-btn" onClick={handleblogclick}>Start ➔</button>
           </div>
         </div>
         <div className="feature">
@@ -27,7 +36,7 @@ function FourthPage() {
           </div>
           <div className="text">
             <h3>Explore the internship opportunities available</h3>
-            <button className="explore-btn">Explore ➔</button>
+            <button className="explore-btn" onClick={handleinternshipclick}>Explore ➔</button>
           </div>
         </div>
       </div>

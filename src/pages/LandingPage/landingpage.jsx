@@ -5,7 +5,15 @@ import SecondPages from './SecondPages'
 import ThirdPage from "./ThirdPage";
 import FifthPage from "./FifthPage";
 import FourthPage from "./FourthPage";
+import { useNavigate } from 'react-router-dom';
+
 function Landingpage() {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+      navigate('/login');
+    };
+
   return (
     <div className="landing-page">
         {/* <Navbar/> */}
@@ -13,7 +21,7 @@ function Landingpage() {
             <div className="main-content">
                 <div className="text-section">
                 <h1>Single Platform for all your <span className="highlight">Learnings</span></h1>
-                <button className="start-button">Start Now ➔</button>
+                <button className="start-button" onClick={handleClick}>Start Now ➔</button>
                 </div>
                 <div className="features-sections">
                     <div className="feature">

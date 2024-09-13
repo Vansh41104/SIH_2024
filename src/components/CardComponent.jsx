@@ -1,11 +1,18 @@
 import React from 'react'
 import './CardComponent.css'
+import { useNavigate } from 'react-router-dom';
 
 const CardComponent = ({Name,Rating,TestName,Desc}) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/course');
+  };
+
   return (
     <div className="course-card">
           <img
-            src="https://via.placeholder.com/300x200" // Replace this with the actual image URL
+            src="src/assets/testguidelineimg.png" // Replace this with the actual image URL
             alt="Chemistry course"
             className="course-image"
           />
@@ -16,7 +23,7 @@ const CardComponent = ({Name,Rating,TestName,Desc}) => {
             <p>
               {Desc}
             </p>
-            <button className="enroll-btn">Enroll Now →</button>
+            <button className="enroll-btn" onClick={handleClick}>Enroll Now →</button>
           </div>
         </div>
   )

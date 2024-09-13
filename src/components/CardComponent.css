@@ -27,6 +27,13 @@
     justify-content: center;
     flex-direction: column;
   }
+  .course-card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+.course-card img{
+  width: 300px;
+  height: 200px;
+}
   
   .course-image {
     /* width: 100%; */
