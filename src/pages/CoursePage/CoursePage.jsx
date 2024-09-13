@@ -21,16 +21,24 @@ const Prerequisites = () => (
   </div>
 );
 
-const Labs = () => (
-  <div>
-    <h3>Labs Related to project:</h3>
-    <p>Information about the labs included in the course.</p>
-    <button className="crpg-interactive-learning">
-      <span>Labs page</span>
-      <ChevronRight size={20} />
-    </button>
-  </div>
-);
+const Labs = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/labs');
+  };
+
+  return (
+    <div>
+      <h3>Labs Related to project:</h3>
+      <p>Information about the labs included in the course.</p>
+      <button className="crpg-interactive-learning" onClick={handleClick}>
+        <span>Labs page</span>
+        <ChevronRight size={20} />
+      </button>
+    </div>
+  );
+};
 
 const TestPage = () => {
   const navigate = useNavigate();
@@ -77,6 +85,11 @@ const CoursePage = () => {
       default:
         return null;
     }
+  };
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/labs');
   };
 
   return (
@@ -142,7 +155,7 @@ const CoursePage = () => {
                 <li>Certificate of completion</li>
                 <li>Badges and many more !</li>
               </ul>
-              <button className="crpg-interactive-learning">
+              <button className="crpg-interactive-learning" onClick={handleClick}>
                 <span>Interactive Learning</span>
                 <ChevronRight size={20} />
               </button>

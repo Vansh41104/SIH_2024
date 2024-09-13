@@ -1,8 +1,24 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import './Dashboard.css'; // Import the CSS file
 import Navbar from '../../components/Navbar/Navbar';
 
 function Dashboard() {
+  const navigate = useNavigate();
+
+  const handleCertificateClick = () => {
+    navigate("/certificate");
+  };
+  const handleCourseClick = () => {
+    navigate("/course");
+  };
+  const handleLabsClick = () => {
+    navigate("/labs");
+  };
+  const handleQuizClick = () => {
+    navigate("/testguidelinespage");
+  };
+      
   return (
     <div className="dashboard">
       
@@ -16,31 +32,31 @@ function Dashboard() {
         </div>
 
         <div className="cards-section">
-          <div className="card">
+          <div className="card" onClick={handleCourseClick} style={{ cursor: 'pointer' }}>
             <img src="src\assets\openbook.png" alt="" />
             <h3>Course Enrolled</h3>
             <p>1</p>
           </div>
-          <div className="card">
+          <div className="card" onClick={handleCertificateClick} style={{ cursor: 'pointer' }}>
             <img src="src\assets\certificate.png" alt="" />
             <h3>Course Completed</h3>
             <p>0</p>
           </div>
         </div>
         <div className="big">
-            <div className="assignments-section">
+            <div className="assignments-section"  onClick={handleLabsClick} style={{ cursor: 'pointer' }}>
                 <h3>Assignment</h3>
                 <div className="assignment-item">
                     <span>Chemical Reaction</span>
                     <span>Due in 3 days</span>
                 </div>
-                <div className="assignment-item">
+                <div className="assignment-item" >
                     <span>Chemical Reaction</span>
                     <span>Due in 3 days</span>
                 </div>
             </div>
 
-            <div className="tests-section">
+            <div className="tests-section" onClick={handleQuizClick} style={{ cursor: 'pointer' }}>
                 <h3>Tests</h3>
                 <div className="test-item">
                     <span>Chemical Reaction</span>

@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar/Navbar';
 
 function BlogPage() {
   return (
-    <div className="App">
+    <div className="BlogApp">
       <div className="blog-container">
         <div className="blog-main-content">
           <div className="user-card">

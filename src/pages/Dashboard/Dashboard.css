@@ -1,35 +1,8 @@
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;  
-    color: #fff;
-  }
+
 
   .dashboard {
     background-color: #000022;;
-    min-height: 100vh;
-  }
-  
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-  }
-  
-  .nav-icons {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .icon {
-    font-size: 1.2rem;
-    cursor: pointer;
+    min-height: 95vh;
   }
   
   .main-content-dash {
@@ -42,7 +15,7 @@ body {
     margin-top: 20px;
     display: flex;
     align-items: center;justify-content: space-between;
-    
+    color: #EBE6E3;
   }
 
   .welcome-section h1 {
