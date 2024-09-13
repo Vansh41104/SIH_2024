@@ -1,5 +1,6 @@
 import React from 'react';
 import './InternshipPage.css';
+import Navbar from "../../components/Navbar/Navbar";
 
 
 const internships = [
@@ -14,9 +15,7 @@ const internships = [
 const InternshipPage = () => {
   return (
     <div className="internship-page">
-      <header className="page-header">
-        <h1>Hands-On Heroes</h1>
-      </header>
+      <Navbar />
 
       <div className="filter-section">
         <div className="filter-tags">
