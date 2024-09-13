@@ -36,7 +36,7 @@ const TestPage = () => {
   const navigate = useNavigate();
   
   const handleClick = () => {
-    navigate('./pages/TestGuidelinesPage/TestGuidelinesPage.jsx');
+    navigate('/testguidelinespage');
   };
 
   return (
