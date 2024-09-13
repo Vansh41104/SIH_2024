@@ -5,23 +5,23 @@ import './App.css'
 // import InternshipPage from './pages/InternshipPage/InternshipPage'
 // import Coursepage from './pages/CoursePage/CoursePage'
 // import ProfilePage from './pages/ProfilePage/ProfilePage'
-// import Chatbot from './pages/ChatBot/Chatbot.jsx'
+import Chatbot from './pages/ChatBot/Chatbot.jsx'
 // import Navbar from './components/Navbar/Navbar.jsx'
 // import BlogPage from './pages/BlogPage/BlogPage'
 // import LabsPage from './pages/Labs/LabsPage'
-import Loginpage from './pages/loginpage/loginpage'
+// import Loginpage from './pages/loginpage/loginpage'
 // import LabsPage from './pages/Labs/LabsPage';
 
 function App() {
 
   return (
    
-    <Loginpage />
+    // <Loginpage />
     // <InternshipPage />
     // <Coursepage />
     // <Dashboard />
     // <CertificatePage />
-    // <Chatbot />
+    <Chatbot />
     // <Navbar />
     // <BlogPage />
     // <ProfilePage />

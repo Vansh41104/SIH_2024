@@ -71,7 +71,7 @@ const ChatApp = () => {
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
           onKeyDown={handleKeyDown}  // Handle Enter key
-          style={styles.input}
+          style={styles.msginput}
         />
         <button style={styles.sendButton} onClick={handleSend}>
           <IoSend style={styles.sendIcon} />
@@ -148,7 +148,7 @@ const styles = {
     alignItems: "center",
     padding: "1rem",
   },
-  input: {
+  msginput: {
     flexGrow: 1,
     padding: "0.75rem 1rem",
     borderRadius: "20px",
