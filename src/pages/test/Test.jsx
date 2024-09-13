@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 function Test() {
   return (
     <div className="landing-page">
-        <Navbar/>
+
         <div className="big-div">
             <div className="main-content">
                 <div className="text-section">

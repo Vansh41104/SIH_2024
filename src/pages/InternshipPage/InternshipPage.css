@@ -106,9 +106,9 @@ body {
   .internship-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    gap: 100px;
     /* margin-top: 30px; */
-    padding-top: 30px;
+    padding-top: 70px;
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -119,8 +119,8 @@ body {
     border-radius: 16px;
     box-shadow: 0 4px 8px #000022;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

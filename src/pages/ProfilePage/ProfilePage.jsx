@@ -5,7 +5,6 @@ import Navbar from '../../components/Navbar/Navbar'; // Import the Navbar compon
 const ProfilePage = () => {
   return (
     <div className="profile-page">
-        <Navbar />
         <div className="profile-header-section">
           <div className="profile-picture">
             <img src="profile_placeholder.png" alt="Profile" />
