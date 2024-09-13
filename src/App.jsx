@@ -18,6 +18,7 @@ import TestGuidelinesPage from './pages/TestGuidelinesPage/TestGuidelinesPage.js
 import QuizComponent from './pages/QuizPage/QuizPage.jsx'
 import { Outlet } from 'react-router-dom';
 //import landingpage from './pages/LandingPage/landingpage.jsx';
+<<<<<<< HEAD
 const LayoutWithNavbar = () => (
   <>
     <Navbar />
@@ -49,6 +50,37 @@ function App() {
     </Routes>
   </Router>
 );
+=======
+import ABCPage from './pages/ABCPage/ABC.jsx';
+
+function App() {
+  return (
+    <Router>
+      <>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Landingpage />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/certificate" element={<CertificatePage />} />
+          <Route path="/internship" element={<InternshipPage />} />
+          <Route path="/course" element={<Coursepage />} />
+          <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/profileedit" element={<ProfileEdit />} />
+          <Route path="/chat" element={<Chatbot />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/labs" element={<LabsPage />} />
+          <Route path="/login" element={<Loginpage />} />  
+          <Route path="/quiz" element={<QuizComponent />} /> 
+          <Route path="/testguidelinespage" element={<TestGuidelinesPage />} />
+          <Route path="/landingpage" element={<Landingpage />} />
+          <Route path="/abc" element={<ABCPage />} />
+        </Routes>
+      </>
+    </Router>
+    // <Test/>
+    // <Loginpage/>
+  )
+>>>>>>> 03c675ce684881f79bb4c6e2be4148d76258c4d4
 }
 
 export default App
