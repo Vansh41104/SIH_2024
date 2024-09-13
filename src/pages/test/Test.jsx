@@ -1,11 +1,12 @@
 import React from "react";
 import './Test.css';
 import Navbar from "../../components/Navbar/Navbar";
+import SecondPages from './SecondPages'
 
 function Test() {
   return (
     <div className="landing-page">
-
+        {/* <Navbar/> */}
         <div className="big-div">
             <div className="main-content">
                 <div className="text-section">
@@ -33,8 +34,11 @@ function Test() {
                 <img src="src\assets\Rectangle 16.png" alt="Image 2"  className="img2"/>
                 <img src="src\assets\Rectangle 17.png" alt="Image 3" />
             </div>
-      </div>
+        </div>
+        <SecondPages/>
+
     </div>
+    
 
   );
 }
