@@ -12,9 +12,10 @@ body{
 
 header {
   background-color: #1a1a2e;
-  /* padding: 20px; */
+  padding: 20px;
   display: flex;
   align-items: center;
+  height: 65px;
 }
 
 button.back-button {
@@ -25,6 +26,9 @@ button.back-button {
   cursor: pointer;
   margin-right: 20px;
   width: 5%;
+  display: flex;
+  padding: 1%;
+  margin-bottom: 10px;
 }
 
 .progress-bar {
@@ -116,9 +120,11 @@ button.menu-button {
 }
 
 footer {
-  padding: 20px;
+  height: 60px;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
 }
 
 button.next-button {
@@ -133,6 +139,7 @@ button.next-button {
   align-items: center;
   width: 7%;
   position: absolute;
+  margin-right: 2%;
   /* Refinement sidewalk is the gap. Hey Cortana Open. Cortana turn off.  */
 }
 
