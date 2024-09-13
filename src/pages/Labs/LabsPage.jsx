@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './LabsPage.css';
+import { useNavigate } from 'react-router-dom';
 
 const coursePages = [
   { image: "src/assets/lab1.png", title: "Industrial Complex" },
@@ -12,6 +13,11 @@ const coursePages = [
 
 const LabsPage = () => {
   const [currentPage, setCurrentPage] = useState(0);
+  const navigate = useNavigate();
+
+  const handleBackClick = () => {
+    navigate("/dashboard");
+  };
 
   const goToNextPage = () => {
     setCurrentPage((prev) => (prev + 1) % coursePages.length);
@@ -24,7 +30,7 @@ const LabsPage = () => {
   return (
     <div className="course-detail-page">
       <header>
-        <button className="back-button" onClick={goToPreviousPage}>←</button>
+        <button className="back-button" onClick={handleBackClick}>←</button>
         <div className="progress-bar">
           <div className="progress" style={{ width: `${((currentPage + 1) / coursePages.length) * 100}%` }}></div>
         </div>
