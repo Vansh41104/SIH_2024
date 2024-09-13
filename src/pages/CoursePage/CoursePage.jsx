@@ -10,7 +10,7 @@ const CoursePage = () => {
         <Navbar />
 
       <nav>
-        <div className="container">
+        <div className="course-container">
           <p>Home &gt; All Courses &gt; Industrial Chemistry 101</p>
         </div>
       </nav>
