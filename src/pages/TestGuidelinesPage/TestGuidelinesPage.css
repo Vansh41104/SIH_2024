@@ -8,6 +8,9 @@
 .lefttspg {
   width: 60%;
 }
+.tspg-icon{
+  color: rgb(5, 5, 199);
+}
 
 .tspg-details {
   border: 2px solid rgba(85, 82, 82, 0.414);
