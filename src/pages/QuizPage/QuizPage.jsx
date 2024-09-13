@@ -217,6 +217,7 @@ const QuizComponent = () => {
                   );
                 })}
               </ul>
+              <button className="go-button">Go to Certificate</button>
             </div>
           )}
         </div>

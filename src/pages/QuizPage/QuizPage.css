@@ -271,12 +271,16 @@ body{
   .mark-button-div{
     position: absolute;
     right: 11%;
-    height: 55.74px;
+    /* height: 55.74px; */
     width: 60px;
     margin: 0px;
     background-color:#EBE6E3;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
+  }
+
+  button.go-button{
+    margin-top: 40px;
   }
   
   
