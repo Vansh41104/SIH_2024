@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-import './Landingpage.css';
-import Navbar from '../../components/Navbar/Navbar';
-const Landingpage = () => {
-  return (
-    <div className="App">
-      {/* <Navbar/> */}
-      <section className="hero">
-        <div className="hero-content">
-          <h1>Single Platform for all your Learnings</h1>
-          <button className="cta-button">Start Now</button>
-        </div>
-      </section>
-=======
 import React from "react";
 import './Landingpage.css';
 import Navbar from "../../components/Navbar/Navbar";
@@ -45,7 +30,6 @@ function Landingpage() {
                     </div>
                 </div>
             </div>
->>>>>>> 9d8c27f9ebe4d56acc5ddb3aa19456437521d86e
 
             <div className="image-strip">
                 <img src="src\assets\Rectangle 15.png" alt="Image 1" />
