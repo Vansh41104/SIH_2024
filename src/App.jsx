@@ -17,6 +17,7 @@ import Loginpage from './pages/loginpage/loginpage'
 import TestGuidelinesPage from './pages/TestGuidelinesPage/TestGuidelinesPage.jsx'
 import QuizComponent from './pages/QuizPage/QuizPage.jsx'
 //import landingpage from './pages/LandingPage/landingpage.jsx';
+import ABCPage from './pages/ABCPage/ABC.jsx';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
           <Route path="/login" element={<Loginpage />} />  
           <Route path="/quiz" element={<QuizComponent />} /> 
           <Route path="/testguidelinespage" element={<TestGuidelinesPage />} />
-          <Route path="/landingpage" element={<Landingpage />} />  
+          <Route path="/landingpage" element={<Landingpage />} />
+          <Route path="/abc" element={<ABCPage />} />
         </Routes>
       </>
     </Router>
