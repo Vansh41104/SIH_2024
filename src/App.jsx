@@ -17,11 +17,10 @@ import Loginpage from './pages/loginpage/loginpage'
 function App() {
   return (
     <Router>
-      <div className="App">
+      <>
         <Navbar />
         <Routes>
-          {/* <Route path="/" element={<Landingpage />} />
-          {/* Add more routes as you develop each page */}
+          <Route path="/" element={<Landingpage />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/certificate" element={<CertificatePage />} />
           <Route path="/internship" element={<InternshipPage />} />
@@ -30,9 +29,9 @@ function App() {
           <Route path="/chat" element={<Chatbot />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/labs" element={<LabsPage />} />
-          <Route path="/login" element={<Loginpage />} /> */}
+          <Route path="/login" element={<Loginpage />} /> 
         </Routes>
-      </div>
+      </>
     </Router>
   )
 }
