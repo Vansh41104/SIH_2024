@@ -16,7 +16,7 @@ const TestPage = () => {
         <div className="tspg-content">
           <div className="tspg-upside">
             <div className="tspg-image-container">
-              <img src="https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg" alt="Industrial Chemistry" />
+              <img src="./../src/assets/testguidelineimg.png" alt="Industrial Chemistry" />
               <h2>Industrial Chemistry 101</h2>
             </div>
             <div className="tspg-status">
