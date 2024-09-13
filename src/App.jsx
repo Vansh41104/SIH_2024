@@ -23,11 +23,19 @@ function App() {
         <Routes>
         {/* <Route path="/" element={} /> */}
           <Route path="/land" element={<Landingpage />} />
+<<<<<<< HEAD
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/certificate" element={<CertificatePage />} />
           <Route path="/internship" element={<InternshipPage />} />
           <Route path="/course" element={<Coursepage />} />
           <Route path="/profile" element={<ProfilePage />} />
+=======
+          <Route path="/dashboard" element={<Dashboard />} />/*Done*/
+          <Route path="/certificate" element={<CertificatePage />} />/*Done*/
+          <Route path="/internship" element={<InternshipPage />} />/*Done*/
+          <Route path="/course" element={<Coursepage />} />/*Done*/
+          <Route path="/profile" element={<ProfilePage />} />/*Done*/
+>>>>>>> e6428d88df3eabc4718bd6a14237001a2bdc1276
           <Route path="/chat" element={<Chatbot />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/labs" element={<LabsPage />} />
