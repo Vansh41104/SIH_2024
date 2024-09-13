@@ -76,12 +76,15 @@ body{
     font-size: 20px;
     margin-bottom: 20px;
     color: #000000;
+    margin-top: 15px;
   }
   
   .options label {
-    display: block;
+    display: flex;
     margin: 10px 0;
     color: #000000; /* Dark text for options */
+    font-weight: 700;
+    flex-direction: column;
   }
   
   /* Previous and Next Buttons */
