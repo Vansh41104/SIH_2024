@@ -21,7 +21,7 @@ body {
     color: white;
   }
   
-  .container {
+  .blog-container {
     display: flex;
     justify-content:center;
     padding: 20px;

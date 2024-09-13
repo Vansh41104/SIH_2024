@@ -7,23 +7,23 @@ import './App.css'
 // import ProfilePage from './pages/ProfilePage/ProfilePage'
 // import Chatbot from './pages/ChatBot/Chatbot.jsx'
 // import Navbar from './components/Navbar/Navbar.jsx'
-// import BlogPage from './pages/BlogPage/BlogPage'
+import BlogPage from './pages/BlogPage/BlogPage'
 // import LabsPage from './pages/Labs/LabsPage'
-import Loginpage from './pages/loginpage/loginpage'
+// import Loginpage from './pages/loginpage/loginpage'
 // import LabsPage from './pages/Labs/LabsPage';
 
 function App() {
 
   return (
    
-    <Loginpage />
+    // <Loginpage />
     // <InternshipPage />
     // <Coursepage />
     // <Dashboard />
     // <CertificatePage />
     // <Chatbot />
     // <Navbar />
-    // <BlogPage />
+    <BlogPage />
     // <ProfilePage />
     // <LabsPage />
 

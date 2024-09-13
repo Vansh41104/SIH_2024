@@ -7,7 +7,7 @@ function BlogPage() {
 
     <div className="App">
       <Navbar/>
-      <div className="container">
+      <div className="blog-container">
         <div className="main-content">
           <div className="user-card">
             <h2>👤 user_01</h2>
