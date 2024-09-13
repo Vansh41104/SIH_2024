@@ -28,11 +28,10 @@ function App() {
           <Route path="/internship" element={<InternshipPage />} />/*Done*/
           <Route path="/course" element={<Coursepage />} />/*Done*/
           <Route path="/profile" element={<ProfilePage />} />/*Done*/
-          <Route path="/chat" element={<Chatbot />} />
-          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/chat" element={<Chatbot />} />/*Done*/
+          <Route path="/blog" element={<BlogPage />} />/*Done*/
           <Route path="/labs" element={<LabsPage />} />
-          <Route path="/login" element={<Loginpage />} /> 
-          <Route path="/login" element={<Loginpage />} /> 
+          <Route path="/login" element={<Loginpage />} />  
           <Route path="/test" element={<Test />} /> 
         </Routes>
       </>
