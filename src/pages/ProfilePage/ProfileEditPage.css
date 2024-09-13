@@ -1,0 +1,133 @@
+.profile-edit-container {
+  width: 100%;
+  background-color: #EBE6E3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.profile-edit-header {
+  background-color: #000022;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  border-radius: 100%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  color: #EBE6E3;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  
+}
+
+.header-icons {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 20px;
+  color: #EBE6E3;
+}
+
+.profile-edit-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* color: #000022; */
+}
+
+.profile-edit-pic {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #EBE6E3;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.pic-placeholder {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #e2e2e2;
+}
+
+
+.profile-edit-name {
+  color: #EBE6E3;
+  font-size: 24px;
+}
+
+.profile-edit-email {
+
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.save-profile-edit-btn {
+  background-color: #EBE6E3;
+  color: #000022;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.profile-edit-details {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  gap: 20px;
+  color: #000022;
+  background-color: #f3f0ed;
+  border-radius: 20px;
+  width: 80%;
+  height: 35vh;
+  gap :50px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.input-group label {
+  font-size: 16px;
+  font-weight: bold;
+  /* width: 25%; */
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #EBE6E3;
+  padding: 8px;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.input-wrapper input,
+.input-wrapper select {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.input-wrapper button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #000022;
+}

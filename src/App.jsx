@@ -9,6 +9,7 @@ import CertificatePage from './pages/CertificatePage/CertificatePage'
 import InternshipPage from './pages/InternshipPage/InternshipPage'
 import Coursepage from './pages/CoursePage/CoursePage'
 import ProfilePage from './pages/ProfilePage/ProfilePage'
+import ProfileEdit from './pages/ProfilePage/ProfileEditPage'
 import Chatbot from './pages/ChatBot/Chatbot.jsx'
 import BlogPage from './pages/BlogPage/BlogPage'
 import LabsPage from './pages/Labs/LabsPage'
@@ -29,6 +30,7 @@ function App() {
           <Route path="/internship" element={<InternshipPage />} />
           <Route path="/course" element={<Coursepage />} />
           <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/profileedit" element={<ProfileEdit />} />
           <Route path="/chat" element={<Chatbot />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/labs" element={<LabsPage />} />
