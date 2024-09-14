@@ -99,18 +99,21 @@ const QuizComponent = () => {
     alert("Time's up! Your test will now be submitted.");
     handleSubmitTest();
   };
+  const handleBackClick = () => {
+    navigate("/TestGuidelinesPage");
+  };
 
   return (
     <>
       <div>
         <header>
-          <button className="back-button" onClick={() => setCurrentQuestionIndex(currentQuestionIndex - 1)}
-            disabled={currentQuestionIndex === 0}>←</button>
+          <button className="back-button" onClick={handleBackClick}
+           >←</button>
           <div className="progress-bar">
             <div className="progress" style={{ width: `${((currentQuestionIndex + 1) / questions.length) * 100}%` }}></div>
           </div>
-          <button className="next-button" onClick={() => setCurrentQuestionIndex(currentQuestionIndex +1)}
-            disabled={currentQuestionIndex === questions.length-1}>→</button>
+          {/* <button className="next-button" onClick={() => setCurrentQuestionIndex(currentQuestionIndex +1)}
+            disabled={currentQuestionIndex === questions.length-1}>→</button> */}
         </header>
       </div>
 
