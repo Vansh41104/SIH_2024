@@ -83,6 +83,7 @@ a:hover, .link:hover {
 label {
     margin-top: 10px;
     display: block;
+    border: none !important;
 }
 
 .forgot-password {
