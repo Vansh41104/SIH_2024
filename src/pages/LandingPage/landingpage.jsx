@@ -1,6 +1,6 @@
 import React from "react";
 import './Landingpage.css';
-import Navbar from "../../components/Navbar/Navbar";
+import Navbar from "./../../pages/loginpage/Navbar/Navbar";
 import SecondPages from './SecondPages'
 import ThirdPage from "./ThirdPage";
 import FifthPage from "./FifthPage";
@@ -15,8 +15,10 @@ function Landingpage() {
     };
 
   return (
+    <>
+    <Navbar/>
     <div className="landing-page">
-        {/* <Navbar/> */}
+       
         <div className="big-div">
             <div className="main-content">
                 <div className="text-section">
@@ -52,6 +54,7 @@ function Landingpage() {
 
     </div>
     
+    </>
 
   );
 }

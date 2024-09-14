@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar.jsx'
-import Landingpage from './pages/LandingPage/Landingpage.jsx'
+import Landingpage from './pages/LandingPage/landingpage.jsx'
 
 // Uncomment these imports as you develop and add each page
 import Dashboard from './pages/Dashboard/Dashboard'
@@ -32,7 +32,7 @@ function App() {
     <Routes>
       {/* Routes with Navbar */}
       <Route element={<LayoutWithNavbar />}>
-        <Route path="/" element={<Landingpage />} />
+        
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/certificate" element={<CertificatePage />} />
         <Route path="/internship" element={<InternshipPage />} />
@@ -47,6 +47,7 @@ function App() {
       </Route>
 
       {/* Routes without Navbar */}
+      <Route path="/" element={<Landingpage />} />
       <Route path="/labs" element={<LabsPage />} />
       <Route path="/login" element={<Loginpage />} />
       <Route path="/quiz" element={<QuizComponent />} />

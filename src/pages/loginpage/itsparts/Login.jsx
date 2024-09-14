@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
-
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 const Login = ({ setActiveCard }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate(); // Initialize useNavigate
 
   const handleLogin = () => {
-    alert(`Logged in with ${email}`);
+    // Perform your login logic here
+    // alert(`Logged in with ${email}`);
+    navigate('/dashboard'); // Redirect to the dashboard
   };
 
   return (
