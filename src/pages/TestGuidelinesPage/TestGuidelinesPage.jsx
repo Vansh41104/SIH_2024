@@ -51,7 +51,7 @@ const TestPage = () => {
                 onChange={(e) => setIsAgreedToTerms(e.target.checked)}
               />
               <p className='nayi'>
-                By registering for this opportunity, you agree to share the data mentioned in this form or any form henceforth on this opportunity with the organizer of this opportunity for further analysis, processing, and outreach. Your data will also be used by Unstop for providing you regular and constant updates on this opportunity. You also agree to the privacy policy and terms of use of Unstop.
+                By registering for this opportunity, you agree to share the data mentioned in this form or any form henceforth on this opportunity with the organizer of this opportunity for further analysis, processing, and outreach. Your data will also be used by Hands-on Heros for providing you regular and constant updates on this opportunity. You also agree to the privacy policy and terms of use of Hands-on Heros.
               </p>
             </label>
             <label className="tspg-subscription-label">
