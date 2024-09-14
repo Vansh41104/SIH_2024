@@ -7,13 +7,14 @@ body{
     position: relative;
     display: flex;
     flex-direction: row;
-    height: 100vh; /* Make the container fill the full height of the viewport */
-    background-color: white;
+    height: 90vh; /* Make the container fill the full height of the viewport */
+    /* background-color: ; */
   }
   
   /* Sidebar Styling */
   .side-nav {
     width: 15vw;
+    height: 80vh;
     background-color: #ececec; /* Light grey for sidebar */
     padding: 30px 10px;
   }
@@ -110,7 +111,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 60%;
-    margin: 50px auto;
+    /* margin: 50px auto; */
     background-color: #f8f8f8;
     padding: 20px;
     border-radius: 10px;
