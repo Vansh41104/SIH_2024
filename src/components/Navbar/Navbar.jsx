@@ -25,6 +25,9 @@ const Navbar = () => {
   const handleStarClick = () => {
     navigate("/blog");
   };
+  const handledotsClick = () => {
+    navigate("/threejs");
+  };
 
   return (
     <nav className="navbar">
@@ -46,7 +49,7 @@ const Navbar = () => {
           className="navbar-icon"
           onClick={handleStarClick}
         />
-        <div className="navbar-dots">...</div>
+        <div className="navbar-dots" onClick={handledotsClick}>...</div>
       </div>
       <div className="navbar-right">
         <FaSearch

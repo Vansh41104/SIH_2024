@@ -18,6 +18,7 @@ import TestGuidelinesPage from './pages/TestGuidelinesPage/TestGuidelinesPage.js
 import QuizComponent from './pages/QuizPage/QuizPage.jsx'
 import ABCPage from './pages/ABCPage/ABC'
 import { Outlet } from 'react-router-dom';
+import ThreeDModelViewer from './pages/ThreeJSPage/ThreeJSPage.jsx';
 //import landingpage from './pages/LandingPage/landingpage.jsx';
 const LayoutWithNavbar = () => (
   <>
@@ -42,6 +43,7 @@ function App() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/testguidelinespage" element={<TestGuidelinesPage />} />
         <Route path="/abc" element={<ABCPage />} />
+        <Route path="/threejs" element={<ThreeDModelViewer />} />
       </Route>
 
       {/* Routes without Navbar */}
