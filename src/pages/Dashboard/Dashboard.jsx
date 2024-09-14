@@ -28,7 +28,7 @@ function Dashboard() {
       <main className="main-content-dash">
         <div className="welcome-section">
           <div className="text">
-            <h1>Welcome Back, <br></br>User Name</h1>
+            <h1>Welcome Back, <br></br>Jhon Doe</h1>
             <p>Track your learnings, manage your courses and activity.</p>
           </div>
           <div className="total-learning-time">Total learning time – 20 hrs 17 min</div>

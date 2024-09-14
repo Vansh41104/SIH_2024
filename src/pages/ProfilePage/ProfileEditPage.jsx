@@ -23,7 +23,7 @@ function ProfileEdit() {
             <div className="pic-placeholder"></div>
 
           </div>
-          <h2 className="profile-edit-name">USER NAME</h2>
+          <h2 className="profile-edit-name">John Doe</h2>
           <p className="profile-edit-email">xyz34@gmail.com</p>
           <button className="save-profile-edit-btn" onClick={handleClick} >SAVE PROFILE</button>
         </div>

@@ -16,8 +16,8 @@ const ProfilePage = () => {
             <img src="profile_placeholder.png" alt="Profile" />
           </div>
           <div className="profile-info">
-            <h2>Ishi Bhavsar</h2>
-            <p>ishibhavsar41@gmail.com</p>
+            <h2>John Doe</h2>
+            <p>xyz34@gmail.com</p>
             <button onClick={handleClick}>Edit Profile</button>
           </div>
         </div>

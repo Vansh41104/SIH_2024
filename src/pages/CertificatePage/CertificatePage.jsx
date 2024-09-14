@@ -18,7 +18,7 @@ const CertificatePage = () => {
           <h2>Hands-On Heroes</h2>
           <h3>CERTIFICATE OF COMPLETION</h3>
           <h1>Industrial Chemistry 101</h1>
-          <p><strong>Recipient Name</strong></p>
+          <p><strong>John Doe</strong></p>
           <p>Date dd/mm/yyyy</p>
           <p className="description">
             This certificate above verifies that Recipient Name successfully completed the course 

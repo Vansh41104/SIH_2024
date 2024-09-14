@@ -28,7 +28,7 @@ const AcademicBankCredits = () => {
             <div className="user-avatar"></div>
             <div>
               <h2 id='abc-h2'>Hello</h2>
-              <p className="user-name">User Name</p>
+              <p className="user-name">jhon doe</p>
               <p className="credit-points">0 Total Academic Credits Points</p>
             </div>
           </div>
