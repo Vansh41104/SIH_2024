@@ -115,7 +115,7 @@ body{
     width: 50%;
   }
   
-  .details-form label {
+  label.details-form-profile  {
     font-weight: bold;
     margin: 0;
   }

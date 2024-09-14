@@ -24,7 +24,7 @@ const ProfilePage = () => {
     <div className="profile">
         <div className="profile-container">
             <div className="profile-details">
-            <div className="details-form">
+            <div className="details-form-profile">
                 <label>Name</label>
                 <input type="text" />
                 <label>Date of Birth</label>
