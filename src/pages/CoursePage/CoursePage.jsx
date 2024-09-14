@@ -42,7 +42,7 @@ const Labs = () => {
 
 const TestPage = () => {
   const navigate = useNavigate();
-  
+
   const handleClick = () => {
     navigate('/testguidelinespage');
   };
@@ -105,30 +105,35 @@ const CoursePage = () => {
       <div className="crpg-container">
         <div className="crpg-main-content">
           <div className="crpg-course-info">
+              <div className="crpg-top">
             <div className="crpg-upper-div">
-              <h2 className="crpg-ministry">Central Education Ministry</h2>
-              <h1 className="crpg-course-title">Industrial Chemistry 101</h1>
-              <p className="crpg-course-description">The basic detail of course lorem45 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                <h2 className="crpg-ministry">Central Education Ministry</h2>
+                <h1 className="crpg-course-title">Industrial Chemistry 101</h1>
+                <p className="crpg-course-description">The basic detail of course lorem45 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
 
-              <div className="crpg-course-meta">
-                <div className="crpg-meta-item">
-                  <User size={20} />
-                  <span>Instructor : Arush Menaria</span>
+                <div className="crpg-course-meta">
+                  <div className="crpg-meta-item">
+                    <User size={20} />
+                    <span>Instructor : Arush Menaria</span>
+                  </div>
+                  <div className="crpg-meta-item">
+                    <User size={20} />
+                    <span>173+ Learners</span>
+                  </div>
+                  <div className="crpg-meta-item">
+                    <Clock size={20} />
+                    <span>Duration : 1 month</span>
+                  </div>
                 </div>
-                <div className="crpg-meta-item">
-                  <User size={20} />
-                  <span>173+ Learners</span>
-                </div>
-                <div className="crpg-meta-item">
-                  <Clock size={20} />
-                  <span>Duration : 1 month</span>
+
+                <div className="crpg-course-rating">
+                  <span className="crpg-rating">4.8</span>
+                  <Star size={20} fill="gold" color="gold" />
+                  <span className="crpg-students">105 students</span>
                 </div>
               </div>
-
-              <div className="crpg-course-rating">
-                <span className="crpg-rating">4.8</span>
-                <Star size={20} fill="gold" color="gold" />
-                <span className="crpg-students">105 students</span>
+              <div className="crpg-image-box">
+                <img src="./../src/assets/loginbg.png" alt="" />
               </div>
             </div>
 
