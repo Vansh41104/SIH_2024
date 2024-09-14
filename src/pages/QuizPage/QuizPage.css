@@ -84,7 +84,7 @@ body{
     margin: 10px 0;
     color: #000000; /* Dark text for options */
     font-weight: 700;
-    flex-direction: column;
+    flex-direction: row;
   }
   
   /* Previous and Next Buttons */
@@ -146,6 +146,7 @@ body{
   
   input[type="radio"] {
     margin-right: 10px;
+    width: fit-content;
   }
   
   label:hover {
@@ -254,17 +255,16 @@ body{
     color: white;
   }
   
-  .mark-button {
+  button.mark-button {
     background-color: #EBE6E3;
     color: black;
     border: none;
     padding: 10px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     cursor: pointer;
-    position: absolute;
-    right: 12%;
-    border-radius: 7px;
-    height: 40px;
+    position: relative;
+    /* right: ?; */
+    height: 50px;
   }
   
   .mark-button:hover {
@@ -274,12 +274,12 @@ body{
   .mark-button-div{
     position: absolute;
     right: 11%;
-    /* height: 55.74px; */
+    height: 63.5px;
     width: 60px;
     margin: 0px;
     background-color:#EBE6E3;
     border-top-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
 
   button.go-button{
