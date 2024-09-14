@@ -10,7 +10,7 @@ const AcademicBankCredits = () => {
   };
 
   return (
-    <div className="container">
+    <div className="abc-container">
       <div className="abc-card">
         <div className="abc-header">
           <div className="logo-title">
