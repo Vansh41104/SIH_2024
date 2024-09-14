@@ -20,7 +20,13 @@ const LabsPage = () => {
   };
 
   const goToNextPage = () => {
-    setCurrentPage((prev) => (prev + 1) % coursePages.length);
+    if (currentPage === coursePages.length - 1) {
+      // If it's the last page, redirect to TestGuidelines
+      navigate("/TestGuidelinesPage");
+    } else {
+      // Otherwise, go to the next page
+      setCurrentPage((prev) => prev + 1);
+    }
   };
 
   const goToPreviousPage = () => {
@@ -54,10 +60,12 @@ const LabsPage = () => {
         </div>
       </main>
       <footer>
-        <button className="next-button" onClick={goToNextPage}>Next <span>▶</span></button>
+        <button className="next-button" onClick={goToNextPage}>
+          {currentPage === coursePages.length - 1 ? "Start Test" : "Next"} <span>▶</span>
+        </button>
       </footer>
     </div>
-    );
+  );
 }
 
 export default LabsPage;

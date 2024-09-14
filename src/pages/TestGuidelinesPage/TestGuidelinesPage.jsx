@@ -1,64 +1,67 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate from react-router-dom
+import { useNavigate } from 'react-router-dom';
 import './TestGuidelinesPage.css';
-import { FaCheckSquare } from 'react-icons/fa'; // Import the check square icon from React Icons
+import Navbar from '../../components/Navbar/Navbar';
 
-const TestPage = () => {
-  const navigate = useNavigate(); // Initialize useNavigate hook
+const TestGuidelines = () => {
+  const navigate = useNavigate();
 
   const handleProceedClick = () => {
-    navigate('/quiz'); // Navigate to the '/quiz' route
+    navigate('/quiz');
   };
 
   return (
-    <div className="tspg-test-page">
-      <div className="lefttspg">
-        <div className="tspg-content">
-          <div className="tspg-upside">
-            <div className="tspg-image-container">
-              <img src="./../src/assets/testguidelineimg.png" alt="Industrial Chemistry" />
-              <h2>Industrial Chemistry 101</h2>
-            </div>
-            <div className="tspg-status">
-              <p>Status</p>
-              <p>Documents &nbsp; 0/0 &nbsp;&nbsp; <FaCheckSquare className="tspg-icon" /></p>
-              <p>Labs &nbsp;  6/6 &nbsp;&nbsp; <FaCheckSquare className="tspg-icon" /></p>
-            </div>
-          </div>
-          {/* <hr /> */}
-        </div>
-        <div className="tspg-details">
-          <div className="tspg-test-guidelines">
-            <h3>Test Guidelines :</h3>
-            <p>Format: The test consists of 7 MCQ type questions. Each correct answer carries 2 marks each. No negative marking.</p>
-            <p>Stable Internet Connection: Make sure your internet connection is reliable to avoid disconnection during the test.</p>
-            <p>Preferred Browser: <strong>Google Chrome</strong></p>
-            <p>Confirmation: After submitting, look for a confirmation message to ensure your test has been successfully submitted. Save or screenshot any confirmation number or submission receipt.</p>
+    <div className="test-page-container">
+      <Navbar />
+      
+      <div className="test-content">
+        {/* Left Section - Course Info */}
+        <div className="course-info">
+          <img
+            src="chemistry.png"
+            alt="Industrial Chemistry 101"
+            className="course-image"
+          />
+          <div className="status-info">
+            <p>Status</p>
+            <p>Documents 0/0 <input type="checkbox" checked disabled /></p>
+            <p>Labs 6/6 <input type="checkbox" checked disabled /></p>
           </div>
         </div>
-      </div>
-      <div className="righttspg">
-        <div className="tspg-contentt">
-          <div className="tspg-subscription">
-            <label className="tspg-subscription-label">
-              <input type="checkbox" className="tspg-checkbox" />
-              <p className='nayi'>
-                By registering for this opportunity, you agree to share the data mentioned in this form or any form henceforth on this opportunity with the organizer of this opportunity for further analysis, processing, and outreach. Your data will also be used by Unstop for providing you regular and constant updates on this opportunity. You also agree to the privacy policy and terms of use of Unstop.
-              </p>
-            </label>
-            <label className="tspg-subscription-label">
-              <input type="checkbox" className="tspg-checkbox" />
-              Subscribe Hands-on Heroes newsletter
-            </label>
-          </div>
-          <div className="tspg-footer">
-            <p>Time Limit: <strong>1 Hr</strong></p>
-            <button className="tspg-proceed-button" onClick={handleProceedClick}>Proceed to Test</button> {/* Add onClick handler */}
-          </div>
+        
+        {/* Middle Section - Test Guidelines */}
+        <div className="test-guidelines">
+          <h2>Industrial Chemistry 101</h2>
+          <hr />
+          <h3>Test Guidelines :</h3>
+          <p>Format: The test consists of 7 MCQ-type questions, each correct answer carries 2 marks, and <strong>No negative marking</strong>.</p>
+          <p><strong>Stable Internet Connection:</strong> Make sure your internet connection is reliable to avoid disconnection during the test.</p>
+          <p><strong>Preferred Browser:</strong> Google Chrome</p>
+          <p><strong>Confirmation:</strong> After submitting, look for a confirmation message to ensure your test has been successfully submitted. Save or screenshot any confirmation number or submission receipt.</p>
+        </div>
+        
+        {/* Right Section - Subscription */}
+        <div className="subscription-box">
+          <label>
+            <input type="checkbox" checked disabled />
+            By registering for this opportunity, you agree to share the data mentioned in this form with the organizer for further analysis, processing, and outreach.
+          </label>
+          <label>
+            <input type="checkbox" />
+            Subscribe to Hands-on Heroes newsletter
+          </label>
+          
+          <p><strong>Time Limit: 1 Hrs</strong></p>
+          <button 
+            className="proceed-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            onClick={handleProceedClick}
+          >
+            Proceed to Test &rarr;
+          </button>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default TestPage;
+export default TestGuidelines;
